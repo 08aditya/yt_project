@@ -22,6 +22,21 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link to = '/services' className='nav-link' onClick={closeMobileMenu}>
+                services
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to = '/product' className='nav-link' onClick={closeMobileMenu}>
+                product
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to = '/sign-up' className='nav-link-mobile' onClick={closeMobileMenu}>
+                  sign up
+                </Link>
+              </li>
              </ul>
         </div>
       </nav>
