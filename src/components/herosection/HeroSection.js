@@ -4,6 +4,7 @@ import "./hero_sectiuon.css";
 import "../../App.css";
 import video from "../../assets/videos/video-1.mp4"
 
+
 function HeroSection() {
   return (
     <div className="hero-container">
